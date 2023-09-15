@@ -1,0 +1,8 @@
+project       = "electric-armor-395015"
+credentials   = "/Users/hardey/Desktop/GITHUB/terraform/key.json"
+region        = "europe-west2"
+zone          = "europe-west2-c"
+instance_name = "terraform-instance"
+machine_type  = "f1-micro"
+boot_image    = "cos-cloud/cos-stable"
+vpc_network   = "terraform-network"
