@@ -13,3 +13,11 @@ variable "boot_image" {
 variable "vpc_network" {
   description = "value of the vpc network"
 }
+
+variable "tags" {
+  description = "list of tags"
+}
+
+variable "ssh_keys" {
+  description = "list of ssh keys"
+}
